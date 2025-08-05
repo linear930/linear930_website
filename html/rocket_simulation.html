@@ -24,20 +24,9 @@
     </ul>
     
     <h2>Example Code</h2>
-    <pre>
-import rocketcea.cea_obj as cea
-from rocketcea.cea_obj import CEA_Obj
-
-# Create a CEA object for LOX/RP-1
-cea_obj = CEA_Obj(oxName='LOX', fuelName='RP-1')
-
-# Calculate Isp at various mixture ratios
-for mr in range(20, 30):
-    mr_real = mr / 10.0  # Convert to decimal (2.0 to 2.9)
-    isp = cea_obj.get_Isp(Pc=1000.0, MR=mr_real, eps=40.0)
-    print(f"Mixture Ratio: {mr_real:.1f}, Isp: {isp:.1f} seconds")
-    </pre>
-    
+    <p>
+        RocketCEA_Program<a href="https://github.com/linear930/rocket_cea_program" class="terminal-btn">GitHub</a>
+    </p>
     <h2>Future Goals</h2>
     <p>I plan to expand my simulations to include:</p>
     <ul>

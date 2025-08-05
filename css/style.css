@@ -1,21 +1,26 @@
 body {
   background-color: rgb(0, 0, 0);
+  font-family: 'Consolas', 'Courier New', monospace;
+  color: white;
+  font-size: 20px;
 }
 
 h1 {
-  color: white;
+  color: rgb(0, 255, 13);
   text-align: center;
 }
 h2 {
-  color: white;
+  color: rgb(93, 76, 141);
   text-align: center;
 }
 
 p {
   font-family: verdana;
-  font-size: 20px;
   text-align: center;
   color: white;
+}
+text_link {
+  color: rgb(0, 255, 13);
 }
 
 #loader {
