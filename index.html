@@ -8,13 +8,22 @@
     <title>Linear's Homepage</title>
 </head>
 <body>
+    <div id="loader"></div>
     <h1>Linear's Homepage</h1>
+    <p>
+        <a href="https://github.com/Linear930" class="terminal-btn" target="_blank">GitHub</a>
+        <a href="https://www.youtube.com/@LIENAR-x8b" class="terminal-btn" target="_blank">YouTube</a>
+      </p>
     <p>This is a website for Linear.</p>
     <p>I'm currently practicing rocket simulations with RocketCEA in Python.</p>
     <p>I'm still working on expanding this website with more content.</p>
-    <p>For now, you can check out my <a href="https://github.com/Linear930">GitHub</a>.</p>
-    <p>Or, you can check out my <a href="https://www.youtube.com/@LIENAR-x8b">YouTube</a>.</p>
-    <p>Learn more about me: <a href="html/about.html">About</a></p>
+    
     <p>Learn about my <a href="html/rocket_simulation.html">Rocket Simulation</a> work with RocketCEA</p>
+    <h2>Learn more about me: <a href="html/about.html" class="terminal-btn">About</a></h2>
+    <script>
+      window.addEventListener('load', function() {
+        document.getElementById('loader').style.display = 'none';
+      });
+    </script>
 </body>
 </html>
